@@ -1,0 +1,281 @@
+personal_information:
+  name: "Muhammad Reza Ar Razi"
+  surname: "Reza"
+  date_of_birth: "19/10/1996"
+  country: "Germany"
+  city: "München"
+  zip_code: "81379"
+  address: "Waakirchner Str. 24"
+  phone_prefix: "+62"
+  phone: "81335843939"
+  email: "rezaarrazi@gmail.som"
+  github: "https://github.com/rezaarrazi"
+  linkedin: "https://www.linkedin.com/in/reza-ar-razi/"
+  
+
+education_details:
+  - education_level: "Master's Degree"
+    institution: "Technical University of Munich"
+    field_of_study: "Informatics"
+    final_evaluation_grade: "2.7"
+    year_of_completion: "2025"
+    start_date: "2023"
+    additional_info:
+      exam:
+        Algorithms: "A"
+        Linear Algebra: "A"
+        Database Systems: "A"
+        Operating Systems: "A-"
+        Web Development: "A"
+
+experience_details:
+  - position: "Master Thesis Student"
+    company: "Huawei Munich Research Center"
+    employment_period: "06/2024 - Present"
+    location: "Munich, Germany"
+    industry: "Technology"
+    key_responsibilities:
+      - responsibility: "Conducting research on the interpretability of Large Language Models (LLMs)"
+      - responsibility: "Developing novel algorithms for privacy-preserving LLMs"
+    skills_acquired:
+      - "PyTorch"
+      - "Transformers"
+      - "Hugging Face"
+      - "Python"
+
+  - position: "Working Student - Trustworthy Technology and Engineering Lab"
+    company: "Huawei Munich Research Center"
+    employment_period: "11/2023 - 05/2024"
+    location: "Munich, Germany"
+    industry: "Technology"
+    key_responsibilities:
+      - responsibility: "Reviewed prior research related to LLM privacy"
+      - responsibility: "Implemented privacy attacks like attribute inference, membership inference, and data extraction"
+      - responsibility: "Conducted empirical evaluations on public and industrial datasets"
+    skills_acquired:
+      - "PyTorch"
+      - "Hugging Face"
+      - "Python"
+
+  - position: "Graduate Student Research Assistant"
+    company: "Chair of Robotics, AI, and Real-time Systems, Technical University of Munich"
+    employment_period: "06/2023 - 06/2024"
+    location: "Munich, Germany"
+    industry: "Academia/Robotics"
+    key_responsibilities:
+      - responsibility: "Developed an AGV system and hierarchical control for Festo Robotino"
+      - responsibility: "Built OpenAI Gym-based simulations for kinematics and dynamics"
+      - responsibility: "Implemented navigation systems for robust sim-to-real transfer"
+    skills_acquired:
+      - "ROS"
+      - "Lidar"
+      - "Unity"
+      - "C/C++"
+      - "Python"
+
+  - position: "Senior Data Scientist"
+    company: "PT. Artha Dana Teknologi (indodana.com)"
+    employment_period: "10/2021 - 04/2023"
+    location: "Jakarta, Indonesia"
+    industry: "Financial Technology"
+    key_responsibilities:
+      - responsibility: "Developed and productionized machine learning models for fraud detection and scoring"
+      - responsibility: "Implemented semantic segmentation of ID cards to improve OCR performance"
+      - responsibility: "Improved automation processes in loan application assessments"
+    skills_acquired:
+      - "PyTorch"
+      - "OpenCV"
+      - "Scikit-learn"
+      - "SQL"
+      - "Google BigQuery"
+      - "Python Flask"
+
+  - position: "Risk Modelling Analyst"
+    company: "PT. Artha Dana Teknologi (indodana.com)"
+    employment_period: "09/2019 - 10/2021"
+    location: "Jakarta, Indonesia"
+    industry: "Financial Technology"
+    key_responsibilities:
+      - responsibility: "Built credit risk models and conducted analytics"
+      - responsibility: "Analyzed key metrics to determine and mitigate risk"
+      - responsibility: "Partnered with the product team to improve risk detection processes"
+    skills_acquired:
+      - "Pandas"
+      - "Numpy"
+      - "Scikit-learn"
+      - "SQL"
+      - "Google BigQuery"
+      - "Python"
+
+  - position: "Robot Engineer Intern"
+    company: "UBTECH Robotics Indonesia"
+    employment_period: "12/2018 - 02/2019"
+    location: "Jakarta, Indonesia"
+    industry: "Robotics"
+    key_responsibilities:
+      - responsibility: "Developed educational robots and created learning modules for children"
+      - responsibility: "Taught robotics concepts to children"
+    skills_acquired:
+      - "Arduino"
+      - "C/C++"
+
+  - position: "AI Engineer Intern"
+    company: "GDP Labs Artificial Intelligence Research (GLAIR)"
+    employment_period: "07/2018 - 09/2018"
+    location: "Jakarta, Indonesia"
+    industry: "Artificial Intelligence"
+    key_responsibilities:
+      - responsibility: "Researched and forecasted time series data using statistical and deep learning methods"
+      - responsibility: "Analyzed and visualized time series data"
+    skills_acquired:
+      - "Pandas"
+      - "Numpy"
+      - "Scikit-learn"
+      - "TensorFlow"
+      - "Keras"
+
+projects:
+  - name: "Privacy Attack Evaluation in LLM"
+    description: "Created a library to assess the vulnerability of Large Language Models (LLMs) to privacy attacks, including attribute inference, membership inference, data extraction, embedding inversion, and jailbreak attacks, with quantitative success rate evaluations."
+    link: ""
+
+  - name: "ID Card Segmentation and Processing"
+    description: "Engineered a semantic segmentation solution for ID card analysis using U-Net and OCR technology to extract and classify data. Developed systems to detect fake and defective ID cards and automate form-filling processes."
+    link: ""
+
+  - name: "Icar Autonomous Driving Car"
+    description: "Designed and implemented a waypoint-following functionality for an autonomous driving car based on a modified golf cart using advanced GPS technologies for automated navigation."
+    link: ""
+
+  - name: "Humanoid Robot Soccer Research"
+    description: "Led a team to develop autonomous humanoid robots capable of playing soccer using advanced computer vision and object recognition technologies with TensorFlow and OpenCV. Achieved awards at RoboCup International."
+    link: "https://www.youtube.com/watch?v=zIzytQ21l-k"
+
+  - name: "Festo Robotino Control System"
+    description: "Developed a hierarchical control system for AGVs, from motor-level to task-space control, and created OpenAI Gym-based simulations for kinematics, dynamics, and robust sim-to-real navigation systems."
+    link: ""
+
+  - name: "Time Series Analysis and Forecasting"
+    description: "Analyzed, visualized, and forecasted time series data using statistical methods (e.g., ARIMA, Exponential Smoothing) and deep learning models like LSTM for predictive analysis."
+    link: ""
+
+  - name: "Robot Education Module"
+    description: "Developed educational robots and learning modules to teach children about robotics, integrating Arduino-based systems for hands-on learning."
+    link: ""
+
+
+
+achievements:
+  - name: "2nd Place - RoboCup International 2018"
+    description: "Secured second place in the Drop-in Challenge (Humanoid Teen Size) at RoboCup International 2018 in Montreal, Canada."
+
+  - name: "2nd Place - Technical Challenge, RoboCup 2018"
+    description: "Won second place in the Technical Challenge (Humanoid Teen Size) at RoboCup International 2018 in Montreal, Canada."
+
+  - name: "3rd Place - Best Humanoid Robot, RoboCup 2018"
+    description: "Recognized as the third-best humanoid robot at RoboCup International 2018 in Montreal, Canada."
+
+  - name: "1st Place - Kontes Robot Indonesia (KRI) 2017"
+    description: "Achieved first place in the Humanoid Robot Soccer Competition (Regional Level - East and Central Java) at KRI 2017."
+
+  - name: "2nd Place - KRI 2017 National Level"
+    description: "Secured second place at the National Humanoid Robot Soccer Competition in Bandung, Indonesia."
+
+  - name: "1st Overall - FIRA HuroCup 2017"
+    description: "Won first place overall at the Federation of International Robot Association (FIRA) HuroCup 2017 in Kaohsiung, Taiwan, excelling across multiple categories."
+
+  - name: "1st Place - Mini DRC, FIRA HuroCup 2017"
+    description: "Achieved first place in the Mini DRC category at FIRA HuroCup 2017 in Kaohsiung, Taiwan."
+
+  - name: "1st Place - Sprint, FIRA HuroCup 2017"
+    description: "Won the Sprint category at FIRA HuroCup 2017 in Kaohsiung, Taiwan."
+
+  - name: "1st Place - United Soccer, FIRA HuroCup 2017"
+    description: "Secured first place in the United Soccer category at FIRA HuroCup 2017 in Kaohsiung, Taiwan."
+
+  - name: "3rd Place - Obstacle Run, FIRA HuroCup 2017"
+    description: "Earned third place in the Obstacle Run category at FIRA HuroCup 2017 in Kaohsiung, Taiwan."
+
+  - name: "1st Place - Kontes Robot Indonesia (KRI) 2016"
+    description: "Won the Humanoid Robot Soccer Competition (Regional Level - Jawa Timur) at KRI 2016."
+
+  - name: "3rd Place - KRI 2016 National Level"
+    description: "Secured third place in the Humanoid Robot Soccer Competition at KRI 2016 National Level in Surabaya, Indonesia."
+
+  - name: "2nd Overall - FIRA HuroCup 2016"
+    description: "Achieved second place overall at FIRA HuroCup 2016 in Beijing, China."
+
+  - name: "2nd Place - United Soccer, FIRA HuroCup 2016"
+    description: "Secured second place in the United Soccer category at FIRA HuroCup 2016 in Beijing, China."
+
+  - name: "2nd Place - Sprint, FIRA HuroCup 2016"
+    description: "Won second place in the Sprint category at FIRA HuroCup 2016 in Beijing, China."
+
+  - name: "2nd Place - Obstacle Run, FIRA HuroCup 2016"
+    description: "Earned second place in the Obstacle Run category at FIRA HuroCup 2016 in Beijing, China."
+
+  - name: "2nd Place - Marathon, FIRA HuroCup 2016"
+    description: "Achieved second place in the Marathon category at FIRA HuroCup 2016 in Beijing, China."
+
+  - name: "2nd Place - Asia Pacific ICT Award 2014"
+    description: "Secured second place in the Asia Pacific ICT Award 2014 held in Jakarta, Indonesia."
+
+  - name: "2nd Place - Indonesia ICT Award 2014"
+    description: "Won second place in the Indonesia ICT Award 2014, highlighting innovation in technology development."
+
+
+certifications:
+  - name: "Natural Language Processing with Classification and Vector Spaces"
+    description: "Certification from Coursera demonstrating knowledge of Natural Language Processing (NLP) and Artificial Neural Networks."
+  - name: "Sequence Models"
+    description: "Coursera certification focusing on Transformer Models, Long Short-Term Memory (LSTM), and advanced sequence modeling techniques."
+
+languages:
+  - language: "English"
+    proficiency: "Fluent"
+
+interests:
+  - "Artificial Intelligence"
+  - "Large Language Models"
+  - "Machine Learning"
+  - "Robotics"
+
+availability:
+  notice_period: "2 months"
+
+salary_expectations:
+  salary_range_usd: "60000 - 110000"
+
+self_identification:
+  gender: "Male"
+  pronouns: "He/Him"
+  veteran: "No"
+  disability: "No"
+  ethnicity: "Asian"
+
+legal_authorization:
+  eu_work_authorization: "Yes"
+  us_work_authorization: "No"
+  requires_us_visa: "Yes"
+  requires_us_sponsorship: "Yes"
+  requires_eu_visa: "No"
+  legally_allowed_to_work_in_eu: "Yes"
+  legally_allowed_to_work_in_us: "No"
+  requires_eu_sponsorship: "No"
+  canada_work_authorization: "Yes"
+  requires_canada_visa: "Yes"
+  legally_allowed_to_work_in_canada: "No"
+  requires_canada_sponsorship: "Yes"
+  uk_work_authorization: "No"
+  requires_uk_visa: "Yes"
+  legally_allowed_to_work_in_uk: "No"
+  requires_uk_sponsorship: "Yes"
+
+
+work_preferences:
+  remote_work: "Yes"
+  in_person_work: "Yes"
+  open_to_relocation: "Yes"
+  willing_to_complete_assessments: "Yes"
+  willing_to_undergo_drug_tests: "Yes"
+  willing_to_undergo_background_checks: "Yes"
