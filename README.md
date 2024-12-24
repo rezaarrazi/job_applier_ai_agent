@@ -1,6 +1,4 @@
 <a name="top"></a>
-<div align="center">
-<img src="./assets/AIHawk.png">
 
 # Jobs Applier AI Agent
 
