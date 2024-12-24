@@ -2,29 +2,9 @@
 <div align="center">
 <img src="./assets/AIHawk.png">
 
-# AIHawk the first Jobs Applier AI Agent
-
-  ![CI](https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk/actions/workflows/ci.yml/badge.svg)
+# Jobs Applier AI Agent
 
 **🤖🔍 Your AI-powered job search assistant. Automate applications, get personalized recommendations and land your dream job faster.**
-
-Join our community: [Telegram](https://t.me/AIhawkCommunity) (for Normal users) | Discord (for Open Source contributors)
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AIhawkCommunity)
-![Discord badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
-
-</div>
-
-**Creator** [feder-cr](https://github.com/feder-cr), Co-Founder of AIHawk </br>
-As AIHawk is focusing on their proprietary product - solving problems in hiring for companies, currently this project is led, managed, and maintained by a group of open-source contributors, with a focus on building tools to help job seekers land the jobs they deserve.
-
-**Project Maintainers / Leads**: [surapuramakhil](https://github.com/surapuramakhil), [sarob](https://github.com/sarob), [cjbbb](https://github.com/cjbbb)
-
-We are looking to expand our FOSS maintainers team! If you are from a non-technical background, you can be part of the project management team, triaging issues, and shaping the project. If you are a technical person, you can join in doing code reviews, participating in releases, and building a better version of this product.
-
-reach out to [surapuramakhil](https://github.com/surapuramakhil) on Discord. [Special thanks](#special-thanks) 
-
-Auto_Jobs_Applier_AIHawk is continuously evolving, and your feedback, suggestions, and contributions are highly valued. Feel free to open issues, suggest enhancements, or submit pull requests to help improve the project. Let's work together to make Auto_Jobs_Applier_AIHawk a powerful tool for job seekers worldwide.
 
 ## Table of Contents
 
@@ -54,12 +34,9 @@ In the digital age, the job search landscape has undergone a dramatic transforma
 **Confirmed successful runs on the following:**
 
 - Operating Systems:
-  - Windows 10
   - Ubuntu 22
 - Python versions:
-  - 3.10
-  - 3.11.9(64b)
-  - 3.12.5(64b)
+  - 3.11
 
 ### Option 1: Using Python Virtual Environment 
 
@@ -67,36 +44,28 @@ In the digital age, the job search landscape has undergone a dramatic transforma
 
    Ensure you have the last Python version  installed. If not, download and install it from Python's official website. For detailed instructions, refer to the tutorials:
 
-   - [How to Install Python on Windows](https://www.geeksforgeeks.org/how-to-install-python-on-windows/)
    - [How to Install Python on Linux](https://www.geeksforgeeks.org/how-to-install-python-on-linux/)
-   - [How to Download and Install Python on macOS](https://www.geeksforgeeks.org/how-to-download-and-install-python-latest-version-on-macos-mac-os-x/)
-
+   
 2. **Download and Install Google Chrome:**
    - Download and install the latest version of Google Chrome from its default location on the [official website](https://www.google.com/chrome).
 
 3. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk.git
+   git clone https://github.com/rezaarrazi/job_applier_ai_agent
    
-   cd Auto_Jobs_Applier_AIHawk
+   cd job_applier_ai_agent
    ```
 
 4. **Activate virtual environment:**
 
    For Unix-based machines -
    ```bash
-   python3 -m venv virtual
+   conda create -n browser_use python==3.11
    ```
 
    ```bash
-   source virtual/bin/activate
-   ```
-
-   or for Windows-based machines -
-
-   ```bash
-   .\virtual\Scripts\activate
+   conda activate browser_use
    ```
 
 5. **Install the required packages:**
@@ -109,23 +78,7 @@ In the digital age, the job search landscape has undergone a dramatic transforma
 
 ## Configuration
 
-### 1. secrets.yaml
-
-This file contains sensitive information. Never share or commit this file to version control.
-
-- `llm_api_key: [Your OpenAI or Ollama API key or Gemini API key]`
-  - Replace with your OpenAI API key for GPT integration
-  - To obtain an API key, follow the tutorial at: <https://medium.com/@lorenzozar/how-to-get-your-own-openai-api-key-f4d44e60c327>
-  - Note: You need to add credit to your OpenAI account to use the API. You can add credit by visiting the [OpenAI billing dashboard](https://platform.openai.com/account/billing).
-  - According to the [OpenAI community](https://community.openai.com/t/usage-tier-free-to-tier-1/919150) and our users' reports, right after setting up the OpenAI account and purchasing the required credits, users still have a `Free` account type. This prevents them from having unlimited access to OpenAI models and allows only 200 requests per day. This might cause runtime errors such as:  
-    `Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. ...}}`  
-    `{'error': {'message': 'Rate limit reached for gpt-4o-mini in organization <org> on requests per day (RPD): Limit 200, Used 200, Requested 1.}}`  
-    OpenAI will update your account automatically, but it might take some time, ranging from a couple of hours to a few days.  
-    You can find more about your organization's limits on the [official page](https://platform.openai.com/settings/organization/limits).
-  - For obtaining Gemini API key visit [Google AI for Devs](https://ai.google.dev/gemini-api/docs/api-key)
-
-
-#### 1.1 config.py - Customize LLM model endpoint
+### 1 config.py - Customize LLM model endpoint
 
 - `LLM_MODEL_TYPE`:
   - Choose the model type, supported: openai / ollama / claude / gemini
@@ -574,33 +527,10 @@ For further assistance, please create an issue on the [GitHub repository](https:
 ## Conclusion
 
 Auto_Jobs_Applier_AIHawk provides a significant advantage in the modern job market by automating and enhancing the job application process. With features like dynamic resume generation and AI-powered personalization, it offers unparalleled flexibility and efficiency. Whether you're a job seeker aiming to maximize your chances of landing a job, a recruiter looking to streamline application submissions, or a career advisor seeking to offer better services, Auto_Jobs_Applier_AIHawk is an invaluable resource. By leveraging cutting-edge automation and artificial intelligence, this tool not only saves time but also significantly increases the effectiveness and quality of job applications in today's competitive landscape.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=feder-cr/Auto_Jobs_Applier_AIHawk&type=Date)](https://star-history.com/#feder-cr/Auto_Jobs_Applier_AIHawk&Date)
-
-If you like the project please star ⭐ the repository!
-
-## Special Thanks
-[![Contributors](https://img.shields.io/github/contributors/feder-cr/Auto_Jobs_Applier_AIHawk)](https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk/graphs/contributors)
-
-<a href="https://github.com/AIHawk-co/Auto_Jobs_Applier/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AIHawk-co/Auto_Jobs_Applier" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
-## License
-
-This project is licensed under the AGPL License. Documentation is licensed under CC BY - see the [AGPL LICENSE](LICENSE) and [CC BY LICENSE](docs/LICENSE) files for details.
-
-The AGPL License requires that any derivative work must also be open source and distributed under the same license.
-
-The CC BY License permits others to distribute, remix, adapt, and build upon your work, even for commercial purposes, as long as they credit you for the original creation. 
  
 
 ## Disclaimer
 
-This tool, Auto_Jobs_Applier_AIHawk, is intended for use at your own risk. The creators / maintainers / contributors assume no responsibility for any consequences arising from its use. Users are advised to comply with the terms of service of relevant platforms and adhere to all applicable laws, regulations, and ethical guidelines. The use of automated tools for job applications may carry risks, including potential impacts on user accounts. Proceed with caution and at your own discretion.
+This tool, is intended for use at your own risk. The creators / maintainers / contributors assume no responsibility for any consequences arising from its use. Users are advised to comply with the terms of service of relevant platforms and adhere to all applicable laws, regulations, and ethical guidelines. The use of automated tools for job applications may carry risks, including potential impacts on user accounts. Proceed with caution and at your own discretion.
 
 [Back to top 🚀](#top)

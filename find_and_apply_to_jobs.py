@@ -18,8 +18,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import asyncio
 from typing import List, Optional, Tuple, Dict
 
-from PyPDF2 import PdfReader
-
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI, ChatOpenAI
 from pydantic import BaseModel, SecretStr
@@ -52,9 +50,6 @@ from src.utils.constants import (
     WORK_PREFERENCES_YAML,
 )
 from src.job import Job, JobPreferences
-# from ai_hawk.bot_facade import AIHawkBotFacade
-# from ai_hawk.job_manager import AIHawkJobManager
-# from ai_hawk.llm.llm_manager import GPTAnswerer
 
 # CV = Path.cwd() / 'Resume - M. Reza Arrazi.pdf'
 # print(f"CV: {CV}")
